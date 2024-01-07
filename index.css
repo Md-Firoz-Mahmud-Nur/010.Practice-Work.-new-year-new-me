@@ -107,10 +107,9 @@
     font-size: 40px;
     font-weight: 700;
     padding-top: 150px;
-    /* text-align: center; */
     padding-left: 700px;
     width: 180;
-    height: 47px;
+    max-height: 47px;
 }
 
 /* section */
