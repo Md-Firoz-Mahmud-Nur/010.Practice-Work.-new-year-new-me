@@ -91,21 +91,84 @@
     /* 162.5% */
     padding: 0px 0px 16px 87px;
 }
+
 .main-list {
     padding-left: 100px;
 
 }
-.main-list li{
+
+.main-list li {
     padding-bottom: 8px;
 }
-.my-plan{
-    color: var(--Dark-01, #151414);
-font-family: Work Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 186px;
-padding-left: 711px;
-width: 179px;
+
+.my-plan {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 150px;
+    /* text-align: center; */
+    padding-left: 700px;
+    width: 180;
+    height: 47px;
+}
+
+/* section */
+
+.plans-container {
+    display: flex;
+    text-align: center;
+    padding: 50px 230px 0px 230px;
+    gap: 85px;
+}
+
+
+.plans-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.plans-description {
+    color: #737272;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* watch */
+.wrist-watch {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(images/watch.png);
+    margin: 130px 230px;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+
+#wrist-watch-head {
+    width: 459px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.call-now {
+    width: 160px;
+    height: 64px;
+    margin-left: 65px;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
 }
