@@ -98,3 +98,13 @@
 .main-list li{
     padding-bottom: 8px;
 }
+.my-plan{
+    color: var(--Dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 186px;
+padding-left: 711px;
+}
